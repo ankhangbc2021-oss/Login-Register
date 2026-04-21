@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth">
+        <!-- Đăng nhập form -->
+        <form id="login-form">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder=" ">
+                <small class="errol-text"></small>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <small class="errol-text"></small>
+            </div>
+
+            <button type="submit">Login</button>
+            <p>Bạn chưa có tài khoản? <span id="show-btn">Đăng ký ngay</span></p>
+        </form>
+
+        <form id="register-form">
+            <div class="input-group">
+                <label for="email-register">Email</label>
+                <input type="email" name="email" id="email-register">
+                <small class="errol-text"></small>
+            </div>
+
+            <div class="input-group">
+                <label for="password-register">Password</label>
+                <input type="password" id="password-register">
+                <small class="errol-text"></small>
+            </div>
+
+            <button type="submit">Register</button>
+            <p>Bạn đã có tài khoản? <span id="show-btn">Đăng nhập ngay</span></p>
+        </form>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
